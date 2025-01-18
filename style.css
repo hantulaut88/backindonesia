@@ -1,0 +1,35 @@
+/* Mengatur gambar latar belakang pada seluruh halaman */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/736x/7d/78/dc/7d78dc8678ca566071fd2549087a4ebb.jpg');  /* Gambar latar belakang */
+    background-size: cover;  /* Menutupi seluruh halaman */
+    background-position: center;  /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat;  /* Tidak mengulang gambar */
+}
+
+/* Mengatur tampilan elemen countdown */
+.countdown {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);  /* Warna latar belakang dengan transparansi */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk timer */
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
