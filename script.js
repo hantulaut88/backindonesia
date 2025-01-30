@@ -1,5 +1,5 @@
 // Targetkan waktu mundur (misalnya  Januari 2025, 00:00:00)
-const targetDate = new Date('2025-01-31T23:59:00').getTime();
+const targetDate = new Date('2025-02-01T08:58:00').getTime();
 
 // Fungsi untuk memperbarui timer setiap detik
 const countdownTimer = setInterval(function() {
